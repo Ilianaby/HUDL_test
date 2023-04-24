@@ -12,6 +12,8 @@ The project consists of the following files:
 
 - `utils/common_utils.py`: Contains utility functions for reading configuration data from a YAML file. It includes a `read_config` function that reads configuration values from a `config.yml` file.
 
+- `config.yml` (Not included): Contains configuration variables (email, password).
+
 - `login.feature`: Contains the Behave feature file with scenarios for testing the login functionality. It includes scenarios for successful login with valid credentials, unsuccessful login with invalid/empty credentials, and checking for error messages and logout functionality.
 
 ## Dependencies
